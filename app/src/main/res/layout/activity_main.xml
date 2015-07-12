@@ -1,0 +1,105 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patient_id"
+            android:text="Patient Id: #173"
+            android:textColor="#5AB49C"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            android:hint="Age"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:hint="Name"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#011936"
+        android:layout_marginTop="40dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="70dp">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/medicine"
+            android:hint="Medicine Name"
+            android:textSize="30sp" />
+
+        <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/strength"
+        android:hint="Med Strength"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/amount"
+            android:hint="Amount"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cause"
+            android:hint="Cause"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button android:id="@+id/submit_presc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prescribe Drug"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+

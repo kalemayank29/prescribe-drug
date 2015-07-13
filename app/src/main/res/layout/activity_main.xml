@@ -59,12 +59,23 @@
         android:layout_marginTop="70dp">
 
 
-        <EditText
+        <!--<EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/medicine"
             android:hint="Medicine Name"
-            android:textSize="30sp" />
+            android:textSize="30sp" />-->
+
+
+
+            <AutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medicine_name"
+                android:textSize="30sp"
+                android:hint="Medicine Name" />
+
+
 
         <EditText
         android:layout_width="fill_parent"
